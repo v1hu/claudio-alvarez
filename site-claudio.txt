@@ -1,0 +1,167 @@
+ROTEIRO DO SITE — CLAUDIO ALVAREZ
+Corretor de Imóveis | CRECI RJ 87.590
+
+1. CABEÇALHO
+Logos da CAIXA e do programa Minha Casa Minha Vida.
+
+Título principal:
+O seu novo lar te espera!
+
+Frase de destaque:
+O sonho da casa própria ao seu alcance!
+
+Menu:
+- Home
+- Sobre mim
+- Benefícios
+- Imóveis
+- Clientes
+- Contato
+
+2. APRESENTAÇÃO
+Título:
+O seu novo lar te espera!
+
+Texto:
+Imóveis na planta, novos, usados e de leilão pelo programa Minha Casa Minha Vida.
+
+Mais que imóveis, realizamos sonhos!
+
+Facilitamos o caminho para você conquistar sua casa própria, com opções que cabem no seu bolso.
+
+3. SOBRE O CORRETOR
+Título:
+Conheça seu corretor de imóveis.
+
+Foto:
+Foto do Claudio Alvarez.
+
+Nome:
+Claudio Alvarez
+
+Profissão:
+Corretor de imóveis
+
+Registro:
+CRECI RJ 87.590
+
+Texto:
+Compromisso, transparência e confiança para realizar o seu sonho!
+
+Meu objetivo é ajudar você a escolher a melhor opção de imóvel para você e sua família.
+
+4. BENEFÍCIOS
+Título:
+Benefícios exclusivos.
+
+- Subsídios de até R$ 55 mil, conforme sua renda.
+- Taxas de juros mais baixas.
+- Parcelas que cabem no seu bolso.
+- Aprovação de crédito mais fácil.
+- Atendimento especializado do início ao fim.
+
+Frase de destaque:
+Imóveis selecionados nas melhores regiões!
+
+5. TIPOS DE IMÓVEIS E EMPREENDIMENTOS
+Título:
+Trabalhamos com:
+
+- Imóveis na planta.
+- Imóveis novos.
+- Imóveis usados.
+- Imóveis de leilão.
+- Programa Minha Casa Minha Vida.
+
+Título:
+Conheça nossos empreendimentos.
+
+Vídeo:
+Inserir vídeo de um empreendimento pronto.
+
+Texto:
+Conheça um dos projetos disponíveis para aquisição e descubra as possibilidades de conquistar seu novo lar.
+
+Informações do imóvel:
+- Nome do empreendimento: [PREENCHER]
+- Localização: [PREENCHER]
+- Quantidade de quartos: [PREENCHER]
+- Diferenciais: [PREENCHER]
+
+6. CLIENTES
+Título:
+Conquistas que merecem ser compartilhadas.
+
+Foto:
+Foto do Claudio com o cliente recebendo a chave do apartamento.
+
+Frase:
+Mais que imóveis, realizamos sonhos!
+
+Texto:
+Cada chave entregue representa uma conquista e o começo de uma nova história.
+
+Depoimento:
+[PREENCHER COM DEPOIMENTO DO CLIENTE, SE DISPONÍVEL]
+
+7. CONTATO
+Título:
+Fale comigo e conquiste seu lar!
+
+Texto:
+Eu te ajudo a escolher a melhor opção para você e sua família.
+
+WhatsApp:
+(21) 99663-0321
+
+Link do WhatsApp:
+https://wa.me/5521996630321
+
+Instagram:
+@claudio.imoveis03
+
+Link do Instagram:
+https://www.instagram.com/claudio.imoveis03/
+
+Chamada:
+Entre em contato e vamos conversar!
+
+8. RODAPÉ
+Claudio Alvarez
+Corretor de Imóveis - CRECI RJ 87.590
+
+Frase:
+Seu sonho. Meu compromisso!
+
+© 2026 - Todos os direitos reservados.
+
+
+SUGESTÃO DE PALETA DE CORES
+Cores aproximadas extraídas visualmente da arte enviada. Os códigos são referências para o projeto, não uma especificação oficial das marcas.
+
+Azul-marinho principal: #002060
+Uso: cabeçalho, fundos principais, títulos e áreas de destaque.
+
+Azul-marinho escuro: #002050
+Uso: fundos alternativos, rodapé e contraste.
+
+Laranja principal: #F0A000
+Uso: botões, palavras em destaque, ícones e detalhes.
+
+Laranja queimado: #E06000
+Uso: detalhes secundários e chamadas de atenção.
+
+Branco: #FFFFFF
+Uso: textos sobre fundos escuros e áreas claras.
+
+Cinza muito claro: #F0F0F0
+Uso: fundos de seções, cartões e áreas de conteúdo.
+
+Sugestão de aplicação:
+
+- Fundo principal: branco ou cinza muito claro.
+- Cabeçalho e rodapé: azul-marinho.
+- Títulos: azul-marinho.
+- Botões principais: laranja com texto branco ou azul-marinho.
+- Textos: azul-marinho escuro ou cinza bem escuro.
+- Cards: fundo branco, com detalhes em azul e laranja.
