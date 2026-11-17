@@ -77,4 +77,22 @@ nav a:hover {
 
 }
 
+section#inicio {
+    
+    margin: 10px;
+    background-image: url("../imagens/claudio/destaque2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.conteudo-inicio {
+    max-width: 500px;
+    color: white;
+}
