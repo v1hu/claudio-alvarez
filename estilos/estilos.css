@@ -71,7 +71,6 @@ nav a:hover {
 
 section#inicio {
 
-    margin: 10px;
     background-image: url("../imagens/claudio/destaque2.png");
     background-position: center;
     background-size: cover;
@@ -85,6 +84,20 @@ section#inicio {
 }
 
 .conteudo-inicio {
-    max-width: 500px;
+    width: 60%;
+    max-width: 650px;
     color: white;
+    text-shadow: 1px black;
+}
+
+.conteudo-inicio h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo-inicio p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
