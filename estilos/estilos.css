@@ -101,3 +101,39 @@ section#inicio {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+
+#inicio h1 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 800;
+    line-height: 1.05;
+}
+
+#inicio h1 span {
+    color: #ed101b;
+}
+
+.botao-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #e50914;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.botao-whatsapp img {
+    width: 28px;
+}
+
+.botao-whatsapp:hover {
+    background-color: green;
+    transform: scale(1.03);
+}
+
