@@ -40,14 +40,13 @@
             <a href="#inicio">Home</a>
             <a href="#sobre">Sobre</a>
             <a href="#imoveis">Imóveis</a>
-            <a href="#imoveis">Depoimentos</a>
             <a href="#contato">Contato</a>
         </nav>
 
         <!-- LOGO MINHA CASA MINHA VIDA -->
 
         <img
-            src="imagens/logo/logo-vida-completo.png"
+            src="imagens/logo/logo-vida.png"
             alt="Logo Minha Casa Minha Vida"
         >
 
@@ -99,43 +98,53 @@
 
         <section id="sobre">
 
-            <h2>Conheça seu corretor de imóveis</h2>
-
             <!-- FOTO DO CORRETOR -->
 
-            <picture>
+            
+<section id="sobre">
 
-                <source
-                    media="(max-width: 670px)"
-                    srcset="imagens/claudio/corpo.jpg"
-                >
+    <h1>SOBRE MIM</h1>
 
-                <img
-                    src="imagens/claudio/corpo.jpg"
-                    alt="Claudio Alvarez, corretor de imóveis"
-                >
+    <div class="conteudo-sobre">
 
-            </picture>
+        <!-- FOTO DO CORRETOR -->
+
+        <picture>
+            <source
+                media="(max-width: 670px)"
+                srcset="imagens/claudio/corpo.jpg"
+            >
+
+            <img
+                src="imagens/claudio/corpo.jpg"
+                alt="Claudio Alvarez, corretor de imóveis"
+            >
+        </picture>
+
+        <!-- INFORMAÇÕES DO CORRETOR -->
+
+        <div class="informacoes-sobre">
 
             <h3>Claudio Alvarez</h3>
 
+            <p><strong>Corretor de imóveis</strong></p>
+
+            <p><strong>CRECI RJ 87.590</strong></p>
+
             <p>
-                Corretor de imóveis
+                Com experiência no mercado imobiliário e dedicação em cada atendimento, ofereço um acompanhamento personalizado para ajudar você a encontrar o imóvel ideal, sempre buscando as melhores oportunidades e condições para você e sua família.
             </p>
 
             <p>
-                CRECI RJ 87.590
+                Compromisso, transparência e confiança para realizar o seu sonho! 
             </p>
 
-            <p>
-                Compromisso, transparência e confiança
-                para realizar o seu sonho!
-            </p>
+        </div>
 
-            <p>
-                Meu objetivo é ajudar você a escolher a melhor
-                opção de imóvel para você e sua família.
-            </p>
+    </div>
+
+</section>
+
 
         </section>
 
@@ -144,45 +153,113 @@
 
         <section id="imoveis">
 
-            <h2>Trabalhamos com:</h2>
+    <h2>Trabalhamos com</h2>
 
-            <ul>
-                <li>Imóveis na planta</li>
-                <li>Imóveis novos</li>
-                <li>Imóveis usados</li>
-                <li>Imóveis de leilão</li>
-                <li>Programa Minha Casa Minha Vida</li>
-            </ul>
+    <ul class="lista-imoveis">
+        <li>Imóveis na planta</li>
+        <li>Imóveis novos</li>
+        <li>Imóveis usados</li>
+        <li>Imóveis de leilão</li>
+        <li>Programa Minha Casa Minha Vida</li>
+    </ul>
 
-            <h3>Conheça nossos empreendimentos</h3>
+    <!-- EMPREENDIMENTOS -->
 
-            <!-- VÍDEO DO EMPREENDIMENTO -->
+    <div class="empreendimentos">
 
-            <video controls>
+        <h2>Conheça nossos empreendimentos</h2>
 
-                <source src="" type="video/mp4">
+        <div class="video-instagram">
 
-                Seu navegador não suporta a reprodução de vídeos.
+            <blockquote
+                class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/reel/DVq6Bp9DUtN/"
+                data-instgrm-version="14">
+            </blockquote>
 
-            </video>
+        </div>
 
-            <p>
-                Conheça um dos projetos disponíveis para aquisição
-                e descubra as possibilidades de conquistar seu novo lar.
-            </p>
+        <p>
+            Conheça um dos projetos disponíveis para aquisição
+            e descubra as possibilidades de conquistar seu novo lar.
+        </p>
 
-            <!-- INFORMAÇÕES DO EMPREENDIMENTO -->
+        <h3>Informações do imóvel</h3>
 
-            <h3>Informações do imóvel</h3>
+        <ul class="informacoes-imovel">
+            <li>Nome do empreendimento: [PREENCHER]</li>
+            <li>Localização: [PREENCHER]</li>
+            <li>Quantidade de quartos: [PREENCHER]</li>
+            <li>Diferenciais: [PREENCHER]</li>
+        </ul>
 
-            <ul>
-                <li>Nome do empreendimento: [PREENCHER]</li>
-                <li>Localização: [PREENCHER]</li>
-                <li>Quantidade de quartos: [PREENCHER]</li>
-                <li>Diferenciais: [PREENCHER]</li>
-            </ul>
+    </div>
 
-        </section>
+    <!-- DEPOIMENTOS DOS CLIENTES -->
+
+    <div class="depoimentos">
+
+        <h2>Histórias de quem realizou o sonho</h2>
+
+        <p class="texto-depoimentos">
+            Confira alguns dos clientes que confiaram em nosso trabalho.
+        </p>
+
+        <div class="container-depoimentos">
+
+            <article class="card-depoimento">
+                <img src="imagens/clientes/cliente1.jpg"
+                     alt="Cliente satisfeito">
+
+                <div class="conteudo-depoimento">
+                    <h3>Cliente 1</h3>
+                    <p>
+                        "[ADICIONE AQUI O DEPOIMENTO DO CLIENTE]"
+                    </p>
+                </div>
+            </article>
+
+            <article class="card-depoimento">
+                <img src="imagens/clientes/cliente2.jpg"
+                     alt="Cliente satisfeito">
+
+                <div class="conteudo-depoimento">
+                    <h3>Cliente 2</h3>
+                    <p>
+                        "[ADICIONE AQUI O DEPOIMENTO DO CLIENTE]"
+                    </p>
+                </div>
+            </article>
+
+            <article class="card-depoimento">
+                <img src="imagens/clientes/cliente3.jpg"
+                     alt="Cliente satisfeito">
+
+                <div class="conteudo-depoimento">
+                    <h3>Cliente 3</h3>
+                    <p>
+                        "[ADICIONE AQUI O DEPOIMENTO DO CLIENTE]"
+                    </p>
+                </div>
+            </article>
+
+            <article class="card-depoimento">
+                <img src="imagens/clientes/cliente4.jpg"
+                     alt="Cliente satisfeito">
+
+                <div class="conteudo-depoimento">
+                    <h3>Cliente 4</h3>
+                    <p>
+                        "[ADICIONE AQUI O DEPOIMENTO DO CLIENTE]"
+                    </p>
+                </div>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
 
         <!-- CONTATO -->
 
@@ -244,7 +321,8 @@
         </p>
 
     </footer>
-
+<!-- SCRIPT DE INCORPORAÇÃO DO INSTAGRAM -->
+<script async src="https://www.instagram.com/embed.js"></script>
 </body>
 
 </html>
