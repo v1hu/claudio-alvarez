@@ -23,7 +23,6 @@
 }
 
 html, body {
-
     scroll-behavior: smooth;
     width: 100%;
     overflow-x: hidden;
@@ -33,10 +32,10 @@ h1, h2, h3 {
     font-family: var(--fonte-titulo);
 }
 
+
 /* CABEÇALHO */
 
 header {
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,7 +45,6 @@ header {
 }
 
 header img {
-    
     width: 100px;
     height: auto;
     object-fit: contain;
@@ -76,6 +74,7 @@ nav a:hover {
     color: white;
 }
 
+
 /* MENU HAMBÚRGUER */
 
 #menu {
@@ -100,6 +99,7 @@ nav a:hover {
     transition: 0.3s;
 }
 
+
 /* ANIMAÇÃO DO HAMBÚRGUER */
 
 #menu:checked + .botao-menu span:nth-child(1) {
@@ -113,6 +113,7 @@ nav a:hover {
 #menu:checked + .botao-menu span:nth-child(3) {
     transform: translateY(-9px) rotate(-45deg);
 }
+
 
 /* INÍCIO */
 
@@ -163,6 +164,7 @@ section#inicio {
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
+
 /* BOTÃO WHATSAPP */
 
 .botao-whatsapp {
@@ -196,6 +198,7 @@ section#inicio {
     background-color: #bd000a;
     transform: scale(1.03);
 }
+
 
 /* TABLETS */
 
@@ -234,6 +237,7 @@ section#inicio {
         font-size: 3rem;
     }
 }
+
 
 /* CELULARES */
 
@@ -420,7 +424,8 @@ section#sobre {
     font-weight: bold;
 }
 
-/* CELULAR */
+
+/* SOBRE - CELULAR */
 
 @media (max-width: 600px) {
 
@@ -458,7 +463,7 @@ section#sobre {
 
 section#imoveis {
     padding: 60px 8%;
-    background-color: #f5f5f5;
+    background-color: #f5f7fb;
 }
 
 /* TÍTULOS */
@@ -477,6 +482,7 @@ section#imoveis {
     font-size: 1.3rem;
     margin-bottom: 15px;
 }
+
 
 /* LISTA DE IMÓVEIS */
 
@@ -499,6 +505,7 @@ section#imoveis {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
+
 /* EMPREENDIMENTOS */
 
 .empreendimentos {
@@ -508,14 +515,15 @@ section#imoveis {
 }
 
 .video-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    max-width: 540px;
-    margin: 0 auto 25px;
-    overflow: hidden;
-    border-radius: 12px;
+    margin: 30px auto;
+    padding: 0;
 }
 
-.video-instagram blockquote {
+.video-instagram blockquote.instagram-media {
     width: 100% !important;
     max-width: 540px !important;
     min-width: 0 !important;
@@ -525,9 +533,11 @@ section#imoveis {
 .empreendimentos > p {
     max-width: 650px;
     margin: 20px auto 35px;
-    color: #444;
-    line-height: 1.7;
+    color: #030303;
+    font-size: 1rem;
+    line-height: 1.8;
 }
+
 
 /* INFORMAÇÕES DO IMÓVEL */
 
@@ -548,19 +558,40 @@ section#imoveis {
     line-height: 1.5;
 }
 
+
 /* DEPOIMENTOS */
 
 .depoimentos {
-    max-width: 1100px;
-    margin: auto;
+    max-width: 1200px;
+    margin: 70px auto 0;
+    padding: 55px 35px;
+    background-color: #edf2f8;
+    border-radius: 18px;
     text-align: center;
 }
 
-.texto-depoimentos {
-    color: #555;
-    margin: -10px auto 35px;
-    line-height: 1.6;
+/* TÍTULO DOS DEPOIMENTOS */
+
+.depoimentos h2 {
+    color: var(--cor1);
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
 }
+
+/* TEXTO DE APRESENTAÇÃO */
+
+.texto-depoimentos {
+    color: #000000;
+    font-family: var(--fonte-texto);
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.8;
+    margin: 0 auto 40px;
+}
+
+/* ORGANIZAÇÃO DOS CARTÕES */
 
 .container-depoimentos {
     display: grid;
@@ -573,13 +604,21 @@ section#imoveis {
 .card-depoimento {
     display: flex;
     align-items: center;
-    gap: 20px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
+    gap: 22px;
+    background-color: #ffffff04;
+    padding: 22px;
+    border-radius: 14px;
     text-align: left;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 5px 18px rgba(30, 50, 80, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.card-depoimento:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 9px 24px rgba(30, 50, 80, 0.13);
+}
+
+/* FOTOS DOS CLIENTES */
 
 .card-depoimento img {
     width: 130px;
@@ -590,22 +629,40 @@ section#imoveis {
     flex-shrink: 0;
 }
 
+/* AJUSTE DAS FOTOS 1 E 2 */
+
+.card-depoimento:nth-child(1) img {
+    object-position: center 5%;
+}
+
+.card-depoimento:nth-child(2) img {
+    object-position: center 5%;
+}
+
+/* CONTEÚDO DOS DEPOIMENTOS */
+
 .conteudo-depoimento {
     flex: 1;
 }
 
 .conteudo-depoimento h3 {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
+    color: var(--cor1);
+    font-family: var(--fonte-titulo);
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin-bottom: 12px;
 }
 
 .conteudo-depoimento p {
-    color: #555;
-    font-size: 0.95rem;
-    line-height: 1.6;
+    color: #526174;
+    font-family: var(--fonte-texto);
+    font-size: 0.96rem;
+    font-weight: 400;
+    line-height: 1.8;
 }
 
-/* RESPONSIVIDADE */
+
+/* RESPONSIVIDADE DA SEÇÃO IMÓVEIS E DEPOIMENTOS */
 
 @media (max-width: 700px) {
 
@@ -633,6 +690,23 @@ section#imoveis {
         padding: 20px;
     }
 
+    /* DEPOIMENTOS MOBILE */
+
+    .depoimentos {
+        padding: 40px 18px;
+        margin-top: 45px;
+        border-radius: 12px;
+    }
+
+    .depoimentos h2 {
+        font-size: 1.65rem;
+    }
+
+    .texto-depoimentos {
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+    }
+
     .container-depoimentos {
         grid-template-columns: 1fr;
         gap: 18px;
@@ -649,13 +723,15 @@ section#imoveis {
     }
 
     .conteudo-depoimento h3 {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     .conteudo-depoimento p {
         font-size: 0.9rem;
+        line-height: 1.7;
     }
 }
+
 
 /* CELULARES PEQUENOS */
 
@@ -672,3 +748,317 @@ section#imoveis {
     }
 }
 
+
+
+/* ============================= */
+/*          CONTATO              */
+/* ============================= */
+
+#contato {
+    background-color: #dce5f0;
+    padding: 80px 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.conteudo-contato {
+    max-width: 750px;
+    margin: auto;
+}
+
+.subtitulo-contato {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #002060;
+    font-family: var(--fonte-titulo);
+    font-size: 0.8em;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+#contato h2 {
+    color: #000000;
+    font-family: var(--fonte-titulo);
+    font-size: 2.2em;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.texto-contato {
+    max-width: 580px;
+    margin: 0 auto 30px;
+    color: #222222;
+    font-family: var(--fonte-texto);
+    font-size: 1.05em;
+    line-height: 1.8;
+}
+
+#contato h3 {
+    color: #000000;
+    font-family: var(--fonte-titulo);
+    font-size: 1.3em;
+    margin-bottom: 25px;
+}
+
+.redes-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.botao-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    min-height: 55px;
+    padding: 15px 25px;
+    border-radius: 8px;
+
+    color: #ffffff;
+    font-family: var(--fonte-titulo);
+    font-size: 0.95em;
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.botao-contato svg {
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+}
+
+.whatsapp {
+    background-color: #168c4a;
+}
+
+.whatsapp:hover {
+    background-color: #106d39;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px #00000025;
+}
+
+.instagram {
+    background: linear-gradient(
+        45deg,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #f77737
+    );
+}
+
+.instagram:hover {
+    filter: brightness(0.9);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px #00000025;
+}
+
+.instagram-contato {
+    margin-top: 25px;
+    color: #222222;
+    font-family: var(--fonte-texto);
+    font-size: 0.9em;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 600px) {
+
+    #contato {
+        padding: 60px 20px;
+    }
+
+    #contato h2 {
+        font-size: 1.7em;
+    }
+
+    .texto-contato {
+        font-size: 0.95em;
+    }
+
+    .redes-contato {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .botao-contato {
+        width: 100%;
+        max-width: 340px;
+        min-height: 55px;
+        font-size: 0.9em;
+    }
+
+}
+
+
+
+/* ============================= */
+/*           RODAPÉ              */
+/* ============================= */
+
+#rodape {
+    background-color: #080808;
+    color: #ffffff;
+    padding: 55px 25px 22px;
+    font-family: var(--fonte-texto);
+}
+
+.conteudo-rodape {
+    max-width: 1100px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+/* IDENTIDADE */
+
+.identidade-rodape h2 {
+    color: #ffffff;
+    font-family: var(--fonte-titulo);
+    font-size: 1.65em;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.dados-rodape {
+    color: #c5c5c5;
+    font-size: 0.9em;
+    line-height: 1.7;
+}
+
+.dados-rodape span {
+    color: #777777;
+    margin: 0 5px;
+}
+
+.frase-rodape {
+    color: #ffffff;
+    font-family: var(--fonte-titulo);
+    font-size: 0.95em;
+    font-style: italic;
+    margin-top: 22px;
+}
+
+/* REDES SOCIAIS */
+
+.redes-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.redes-rodape h3 {
+    color: #ffffff;
+    font-family: var(--fonte-titulo);
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.redes-rodape a {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+
+    color: #c5c5c5;
+    font-size: 0.9em;
+    text-decoration: none;
+
+    transition: color 0.25s ease;
+}
+
+.redes-rodape a:hover {
+    color: #ffffff;
+}
+
+.redes-rodape svg {
+    width: 19px;
+    height: 19px;
+    flex-shrink: 0;
+}
+
+/* DIVISÓRIA */
+
+.linha-rodape {
+    max-width: 1100px;
+    height: 1px;
+    margin: 40px auto 20px;
+    background-color: #292929;
+}
+
+/* ASSINATURA */
+
+.assinatura-rodape {
+    text-align: center;
+}
+
+.assinatura-rodape p {
+    color: #999999;
+    font-size: 0.82em;
+    line-height: 1.8;
+}
+
+.assinatura-rodape a {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.assinatura-rodape a:hover {
+    color: #e06000;
+}
+
+.assinatura-rodape span {
+    color: #555555;
+    margin: 0 7px;
+}
+
+/* ============================= */
+/*       RESPONSIVIDADE          */
+/* ============================= */
+
+@media screen and (max-width: 600px) {
+
+    #rodape {
+        padding: 40px 22px 20px;
+    }
+
+    .conteudo-rodape {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 35px;
+    }
+
+    .identidade-rodape h2 {
+        font-size: 1.5em;
+    }
+
+    .redes-rodape {
+        align-items: center;
+    }
+
+    .redes-rodape a {
+        justify-content: center;
+    }
+
+    .linha-rodape {
+        margin: 32px auto 18px;
+    }
+
+    .assinatura-rodape p {
+        font-size: 0.76em;
+    }
+
+}
