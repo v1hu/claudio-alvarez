@@ -1,72 +1,93 @@
 
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Claudio Alvarez | Corretor</title>
 
     <link rel="stylesheet" href="./estilos/estilos.css">
-
 </head>
 
 <body>
 
     <!-- CABEÇALHO -->
+
     <header>
 
-        <!-- Logos da CAIXA e Minha Casa Minha Vida -->
+        <!-- LOGO TENDA -->
 
-            <img src="imagens/logo/logo-tenda.png" alt="Logo da CAIXA">
+        <img
+            src="imagens/logo/logo-tenda.png"
+            alt="Logo Tenda"
+        >
+
+        <!-- MENU HAMBÚRGUER -->
+
+        <input type="checkbox" id="menu">
+
+        <label for="menu" class="botao-menu" aria-label="Abrir ou fechar menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
 
         <!-- MENU DE NAVEGAÇÃO -->
+
         <nav>
-
             <a href="#inicio">Home</a>
-
             <a href="#sobre">Sobre</a>
-
-            <a href="#beneficios">Benefícios</a>
-
             <a href="#imoveis">Imóveis</a>
-
-            <a href="#clientes">Clientes</a>
-
+            <a href="#imoveis">Depoimentos</a>
             <a href="#contato">Contato</a>
-
         </nav>
 
-        <img src="imagens/logo/logo-vida-completo.png" alt="Logo Minha Casa Minha Vida">
+        <!-- LOGO MINHA CASA MINHA VIDA -->
+
+        <img
+            src="imagens/logo/logo-vida-completo.png"
+            alt="Logo Minha Casa Minha Vida"
+        >
 
     </header>
-<hr>
+
+    <hr>
+
     <!-- CONTEÚDO PRINCIPAL -->
+
     <main>
 
         <!-- APRESENTAÇÃO -->
+
         <section id="inicio">
 
             <div class="conteudo-inicio">
-                
-                <h1>Realize o sonho da <br> <span style="color: red;"><strong>casa própria!</strong></span> </h1>
 
-                <p>
-                    Melhores condições e todo o <br> suporte que você precisa.
-                </p> <br>
+                <h1>
+                    Realize o sonho da
+                    
+                    <span><strong>casa própria!</strong></span>
+                </h1>
 
-                <p>
+                <p class="descricao-inicio">
                     Mais que imóveis, realizamos sonhos!
                 </p>
 
-                <a href="https://wa.me/5521996630321" target="_blank" class="botao-whatsapp">
+                <a
+                    href="https://wa.me/5521996630321"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="botao-whatsapp"
+                >
 
-                <img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp">
-                        Fale comigo pelo WhatsApp
+                    <img
+                        src="https://cdn.simpleicons.org/whatsapp/25D366"
+                        alt=""
+                    >
+
+                    Fale comigo pelo WhatsApp
 
                 </a>
 
@@ -75,16 +96,24 @@
         </section>
 
         <!-- SOBRE O CORRETOR -->
+
         <section id="sobre">
 
             <h2>Conheça seu corretor de imóveis</h2>
 
-            <!-- Foto do corretor -->
+            <!-- FOTO DO CORRETOR -->
 
             <picture>
 
-                <source media="(max.width:670px)" srcset="imagens/claudio/corpo.jpg">
-                <img src="imagens/claudio/corpo.jpg" alt="Claudio Alvarez, corretor de imóveis">
+                <source
+                    media="(max-width: 670px)"
+                    srcset="imagens/claudio/corpo.jpg"
+                >
+
+                <img
+                    src="imagens/claudio/corpo.jpg"
+                    alt="Claudio Alvarez, corretor de imóveis"
+                >
 
             </picture>
 
@@ -110,41 +139,9 @@
 
         </section>
 
-        <!-- BENEFÍCIOS -->
-        <section id="beneficios">
-
-            <h2>Benefícios exclusivos</h2>
-
-            <ul>
-                <li>
-                    Subsídios de até R$ 55 mil,
-                    conforme sua renda.
-                </li>
-
-                <li>
-                    Taxas de juros mais baixas.
-                </li>
-
-                <li>
-                    Parcelas que cabem no seu bolso.
-                </li>
-
-                <li>
-                    Aprovação de crédito mais fácil.
-                </li>
-
-                <li>
-                    Atendimento especializado do início ao fim.
-                </li>
-            </ul>
-
-            <p>
-                Imóveis selecionados nas melhores regiões!
-            </p>
-
-        </section>
 
         <!-- TIPOS DE IMÓVEIS -->
+
         <section id="imoveis">
 
             <h2>Trabalhamos com:</h2>
@@ -159,10 +156,14 @@
 
             <h3>Conheça nossos empreendimentos</h3>
 
-            <!-- Vídeo de um empreendimento -->
+            <!-- VÍDEO DO EMPREENDIMENTO -->
+
             <video controls>
+
                 <source src="" type="video/mp4">
+
                 Seu navegador não suporta a reprodução de vídeos.
+
             </video>
 
             <p>
@@ -170,7 +171,8 @@
                 e descubra as possibilidades de conquistar seu novo lar.
             </p>
 
-            <!-- Informações adicionais do empreendimento -->
+            <!-- INFORMAÇÕES DO EMPREENDIMENTO -->
+
             <h3>Informações do imóvel</h3>
 
             <ul>
@@ -182,31 +184,8 @@
 
         </section>
 
-        <!-- CLIENTES -->
-        <section id="clientes">
-
-            <h2>Conquistas que merecem ser compartilhadas</h2>
-
-            <!-- Foto do corretor com cliente recebendo a chave -->
-            <img src="imagens/clientes/cliente1.jpg" alt="Claudio Alvarez com cliente na entrega das chaves">
-
-            <p>
-                Mais que imóveis, realizamos sonhos!
-            </p>
-
-            <p>
-                Cada chave entregue representa uma conquista
-                e o começo de uma nova história.
-            </p>
-
-            <!-- Depoimento do cliente, se disponível -->
-            <blockquote>
-                "[DEPOIMENTO DO CLIENTE]"
-            </blockquote>
-
-        </section>
-
         <!-- CONTATO -->
+
         <section id="contato">
 
             <h2>Fale comigo e conquiste seu lar!</h2>
@@ -222,7 +201,11 @@
                 WhatsApp: (21) 99663-0321
             </p>
 
-            <a href="https://wa.me/5521996630321">
+            <a
+                href="https://wa.me/5521996630321"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 Fale comigo pelo WhatsApp
             </a>
 
@@ -230,7 +213,11 @@
                 Instagram: @claudio.imoveis03
             </p>
 
-            <a href="https://www.instagram.com/claudio.imoveis03/">
+            <a
+                href="https://www.instagram.com/claudio.imoveis03/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 Acesse meu Instagram
             </a>
 
@@ -239,11 +226,14 @@
     </main>
 
     <!-- RODAPÉ -->
+
     <footer>
 
         <h2>Claudio Alvarez</h2>
 
-        <p>Corretor de Imóveis - CRECI RJ 87.590</p>
+        <p>
+            Corretor de Imóveis - CRECI RJ 87.590
+        </p>
 
         <p>
             Seu sonho. Meu compromisso!
@@ -256,4 +246,5 @@
     </footer>
 
 </body>
+
 </html>
